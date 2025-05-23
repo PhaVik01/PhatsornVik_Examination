@@ -18,6 +18,9 @@ jobs:
     steps:    
       
       - uses: actions/checkout@v3
+
+      - name: Installera beroenden (Faker)
+        run: pip install faker
       
       - name: Run tests
         run: 
