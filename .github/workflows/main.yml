@@ -2,9 +2,9 @@ name: CICD
 
 on:
   push:
-    branches: [ "main", "feature/create-generateTests-pipline" ]
+    branches: [ "main", "feature/create-generateTests-pipeline" ]
   pull_request:
-    branches: [ "main", "feature/create-generateTests-pipline" ]
+    branches: [ "main", "feature/create-generateTests-pipeline" ]
 permissions:
   id-token: write
   pages: write
