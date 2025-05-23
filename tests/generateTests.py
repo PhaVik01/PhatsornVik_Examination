@@ -35,3 +35,11 @@ class TestCountryCode(unittest.TestCase):
         result = getCountryCode(input_value)
 
         self.assertEqual(result, expected)
+
+    def test_if_country_code_is_dk_DK_should_fail(self)
+        input_value = "dk_DK"
+        excepted = "XX"
+
+        result = getCountryCode(input_value)
+
+        self.assertEqual(result, excepted)
